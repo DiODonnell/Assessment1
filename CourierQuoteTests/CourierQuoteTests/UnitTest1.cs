@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using FastwayCourier;
 
 using Microsoft.VisualStudio.TestTools.UnitTesting;
@@ -70,7 +70,7 @@ namespace CourierQuoteTests
             //arrange
             ParcelQuoteFromNelson pq = new ParcelQuoteFromNelson();
             string destination = "Atawhai";
-            string expected = "pink";
+            string expected = "Pink";
             string actual;
 
             //act
@@ -86,7 +86,7 @@ namespace CourierQuoteTests
         {
             //arrange
             ParcelQuoteFromNelson pq = new ParcelQuoteFromNelson();
-            string destination = "Matai";
+            string destination = "Maitai";
             string expected = "Pink";
             string actual;
 
@@ -238,7 +238,7 @@ namespace CourierQuoteTests
         {
             //arrange
             ParcelQuoteFromNelson pq = new ParcelQuoteFromNelson();
-            string destination = "Waihopai";
+            string destination = "Waihopai Valley";
             string expected = "Blue";
             string actual;
 
@@ -334,7 +334,7 @@ namespace CourierQuoteTests
         {
             //arrange
             ParcelQuoteFromNelson pq = new ParcelQuoteFromNelson();
-            string destination = "Nelson National Park";
+            string destination = "Nelson Lakes National Park";
             string expected = "Lime";
             string actual;
 
